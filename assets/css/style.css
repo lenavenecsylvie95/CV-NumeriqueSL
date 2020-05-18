@@ -1,0 +1,155 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{/* il manque le changement de la couleur du texte #EACECA; j'y arrive pas */
+  background-color: #4C424A;{
+}
+
+
+/*------------------ACCUEIL-------------------*/
+}
+.accueil{    /*PHOTO ACCUEIL */
+  background-image: url("../img/home-office1920.jpg");
+  height:900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+.accueil .text-accueil { /*Dimension et Position du TEXT ACCUEIL dans la DIV ACCUEIL sylvie le navenec / WebDesigner Communication digitale*/
+background: none;
+padding: 2%;
+padding-left: 50%;
+margin-top: 2%;
+
+}
+.text-accueil {/* Texte sylvie le navenec WebDesigner Communication digitale*/
+  text-align: center;
+  font-size:30px;
+  line-height: 100px;
+  color: #E5EAEA;
+  text-shadow: 4px 4px 4px black;
+  font-weight: bold;
+
+}
+#trait{/*TRAIT DE SEPARATION entre Sylvie Le navenec et WebDesigner Communication Digitale*/
+  width: 100px;
+  height: 3px;
+  background-color: #E5EAEA;
+  box-shadow: 4px 4px 4px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*-------------PRESENTATION----------------*/
+#presentation{/* il y a une hitoire de z-index par ici..grr  */
+
+    }
+  .Present {
+  background-color: none;
+
+  }
+  .text-present {
+    color: #4E454A;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+  }
+/*----------------- FORMATION------------------------ */
+    #formation {
+    margin-top: 5px;
+    color: #4E454A;
+    margin-left: 10px;
+  }
+   #formation{
+     padding-top: 2em;
+     padding-left: 10px;
+     }
+
+  }
+/*timeline prévu ici/*
+
+/*---------- MES COMPETENCES------------------*/
+#competences {
+color: #4E454A;
+padding-left: 10px;
+}
+#competences {
+background-color: #4E454A;
+
+}
+.compet {
+  color: #EACECA;
+  background-color: #4E454A;
+}
+  .frameworks h3{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .frameworks:hover {
+   color: #f7eff3;
+
+  }
+  .frameworks ul li {
+    list-style-type: none;
+    background-position: left center;
+    padding-left:10px;
+    margin-top: 20px;
+  }
+
+  /*------------ MES EXPERIENCES PRO----------------------------- */
+  #experiences {
+      margin-top: 40px;
+      color:
+      padding-left: 10px;
+  }
+  #experiences:target {
+    padding-top: 2em;
+    }
+
+  /*--------MES CENTRES D'INTERETS------------------------------------ */
+#interets {
+/*intégrer la photo sport escrime avc un scroll ou caroussel faut voir*/
+  margin-top: 40px;
+  color:  #4E454A;
+  padding-left: 10px;
+}
+
+}
+#interets {
+  padding-top: 2em;{
+
+  }
+}
+
+/*--------CONTACT FOOTER--------------------- */
+#contact {
+  margin-top: 40px;
+  color: #4E454A;
+  padding-left: 10px;
+
+}
+.text-contact {
+  background-color: #EACECA;
+  height: 240px;
+
+  margin-top: 50px;
+  color: #4E454A;
+}
+.icone a{
+  font-size: 4rem;
+  color:#4E454A;
+}
+.icone:hover a{
+color: white;
+}
+.icone {
+  text-align: center;
+  background-color: #EACECA;
+}
+.icone p {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 10px;
+}
